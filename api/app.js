@@ -5,11 +5,13 @@ const axios = require("axios");
 const dfd = require("danfojs-node")
 const assert = require("assert");
 
-const instrument_ids = ["72044", "71556"];
-const stock_proportion = [0.3, 0.7];
+// const instrument_ids = ["72044", "71556"];
+// const stock_proportion = [0.3, 0.7];
 
 const key = "API-KEY";
 const api_url = 'https://freeserv.dukascopy.com/2.0/';
+
+app.use(express.json());
 
 class DukascopyAPI {
     constructor(key, base_url) {
@@ -257,15 +259,18 @@ class CustomIndexMain {
     }
 }
 
-app.get('/api', async (req, res) => {
-    let custom_index =  new CustomIndexMain(instrument_ids, stock_proportion, 1641013320000, 1643673600000);
+app.post('/api/generate_chart', async (req, res) => {
+    let instrument_ids = JSON.parse(req.body.instrument_ids);
+    let stock_proportion = JSON.parse(req.body.stock_proportion);
+
+    let custom_index = new CustomIndexMain(instrument_ids, stock_proportion, 1641013320000, 1643673600000);
     await custom_index.gatherInstrumentsData();
     custom_index.calculateIndexGrowth();
     custom_index.display();
     res.send(custom_index.getFullData().toJSON());
 });
 
-app.get('/instruments', (req, res) => {
+app.get('/api/instruments', (req, res) => {
     const options = {
         method: 'GET',
         url: api_url,

@@ -2,12 +2,12 @@ import {Button, FormControl, InputGroup} from 'react-bootstrap';
 import './homepage.css';
 import {useEffect, useState} from "react";
 import axios from "axios";
+import { useNavigate } from "react-router";
 import LoadingOverlay from 'react-loading-overlay';
-
 
 const instruments = new Map();
 
-function Table() {
+function Table({onSubmit}) {
     const [rowItemsList, setRowItemsList] = useState([]);
     const [numberOfElements, setNumberOfElements] = useState(0);
 
@@ -45,7 +45,7 @@ function Table() {
         }
 
         const getDesc = () => {
-            if (rowItemsList[index].instrument_id){
+            if (rowItemsList[index].instrument_id) {
                 return instruments.get(rowItemsList[index].instrument_id).name;
             }
             return "No instrument selected";
@@ -67,7 +67,9 @@ function Table() {
                 <td>{getDesc()}</td>
                 <td><input onBlur={handleInputChange}
                            value={proportion}
-                           onChange={(e) => {setProportion(parseInt(e.target.value))}}/>
+                           onChange={(e) => {
+                               setProportion(e.target.value)
+                           }}/>
                 </td>
             </tr>
         )
@@ -102,6 +104,10 @@ function Table() {
                 }
                 </tbody>
             </table>
+
+            <div>
+                <Button onClick={() => {onSubmit(rowItemsList)}} >Submit</Button>
+            </div>
         </div>
     )
 }
@@ -109,18 +115,20 @@ function Table() {
 export default function Homepage() {
     const [loading, setLoading] = useState(true);
 
+    const history = useNavigate();
+
     useEffect(() => {
         getInstruments();
     });
 
-    const getInstruments = () => {
+    const getInstruments = (ids, proportions) => {
         const options = {
             method: 'GET',
-            url: '/instruments',
+            url: 'api/instruments',
         };
 
         axios.request(options).then(function (response) {
-            for (const i of response.data){
+            for (const i of response.data) {
                 instruments.set(i.id, i);
             }
             setLoading(false);
@@ -129,13 +137,24 @@ export default function Homepage() {
         });
     }
 
+    const navigateToChart = (ids, proportions) => {
+        history('/chart', {
+            state: {
+                ids: ids,
+                proportion: proportions
+            }
+        })
+    }
+
     return (
         <LoadingOverlay active={loading}
                         spinner
                         text='Loading your content...'
-                        >
+        >
             <div style={{padding: "1rem 0", minHeight: '100vh'}}>
-                <Table />
+                <Table onSubmit={(data) => {
+                    navigateToChart(data.map((item) => item.instrument_id), data.map((item) => parseFloat(item.proportion) / 100));
+                }}/>
             </div>
         </LoadingOverlay>
     );
