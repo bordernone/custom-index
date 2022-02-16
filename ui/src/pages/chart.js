@@ -8,7 +8,7 @@ import {
     Legend,
     ResponsiveContainer
 } from "recharts";
-import {PureComponent, useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import axios from "axios";
 import {useLocation} from "react-router-dom";
 
@@ -28,7 +28,12 @@ export default function Chart() {
             method: 'POST',
             url: '/api/generate_chart',
             headers: {'Content-Type': 'application/json'},
-            data: {instrument_ids: JSON.stringify(location.state.ids), stock_proportion: JSON.stringify(location.state.proportion)}
+            data: {
+                instrument_ids: JSON.stringify(location.state.ids),
+                stock_proportion: JSON.stringify(location.state.proportion),
+                start_timestamp: location.state.start_timestamp,
+                end_timestamp: location.state.end_timestamp
+            }
         };
 
         axios.request(options).then((response) => {

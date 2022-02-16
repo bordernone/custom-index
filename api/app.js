@@ -259,15 +259,30 @@ class CustomIndexMain {
     }
 }
 
+const validate_proportion = (proportion_list) => {
+    return proportion_list.reduce((total, next) => {return total + next}) === 1;
+}
+
 app.post('/api/generate_chart', async (req, res) => {
     let instrument_ids = JSON.parse(req.body.instrument_ids);
     let stock_proportion = JSON.parse(req.body.stock_proportion);
+    let start_timestamp = req.body.start_timestamp;
+    let end_timestamp = req.body.end_timestamp;
 
-    let custom_index = new CustomIndexMain(instrument_ids, stock_proportion, 1641013320000, 1643673600000);
-    await custom_index.gatherInstrumentsData();
-    custom_index.calculateIndexGrowth();
-    custom_index.display();
-    res.send(custom_index.getFullData().toJSON());
+    if (!validate_proportion(stock_proportion)){
+        res.status(400).send("Invalid proportion. Proportions must add up to 100%")
+    } else {
+        try {
+            let custom_index = new CustomIndexMain(instrument_ids, stock_proportion, start_timestamp, end_timestamp);
+            await custom_index.gatherInstrumentsData();
+            custom_index.calculateIndexGrowth();
+            custom_index.display();
+            res.send(custom_index.getFullData().toJSON());
+        } catch (e) {
+            console.log(e);
+            res.sendStatus(400);
+        }
+    }
 });
 
 app.get('/api/instruments', (req, res) => {

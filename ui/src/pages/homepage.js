@@ -1,9 +1,12 @@
-import {Button, Container, Form, Table, Row} from 'react-bootstrap';
+import {Button, Container, Form, Table, Row, Col} from 'react-bootstrap';
 import './homepage.css';
 import {useEffect, useState} from "react";
 import axios from "axios";
 import { useNavigate } from "react-router";
 import LoadingOverlay from 'react-loading-overlay';
+import DatePicker from 'react-datepicker';
+import "react-datepicker/dist/react-datepicker.css";
+
 
 const instruments = new Map();
 
@@ -16,7 +19,7 @@ const options = () => {
 }
 
 const Get_First_Instrument_ID = () => {
-    return "2000";
+    return instruments[Symbol.iterator]().next().value[0];
 }
 
 const TableRow = ({updateHandler}) => {
@@ -113,6 +116,8 @@ function TableInput({onSubmit}) {
 
 export default function Homepage() {
     const [loading, setLoading] = useState(true);
+    const [startDate, setStartDate] = useState(new Date());
+    const [endDate, setEndDate] = useState(new Date());
 
     const history = useNavigate();
 
@@ -144,7 +149,9 @@ export default function Homepage() {
         history('/chart', {
             state: {
                 ids: ids,
-                proportion: proportions
+                proportion: proportions,
+                start_timestamp: + startDate,
+                end_timestamp: + endDate
             }
         })
     }
@@ -154,12 +161,30 @@ export default function Homepage() {
                         spinner
                         text='Loading...'
         >
-            <Container>
-                <div style={{padding: "1rem 0", minHeight: '100vh'}}>
-                    <TableInput onSubmit={(data) => {
-                        navigateToChart(data.map((item) => item.instrument_id), data.map((item) => parseFloat(item.proportion) / 100));
-                    }}/>
-                </div>
+            <Container style={{padding: "1rem 0", minHeight: '100vh'}}>
+                <Row >
+                    <Row className={"pt-2"}>
+                        <Col className={"display-flex-center"}>
+                            <p className={"date-label"}>Start Date: </p>
+                            <div className={"width-200"}>
+                                <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} />
+                            </div>
+                        </Col>
+
+                        <Col className={"display-flex-center"}>
+                            <p className={"date-label"}>End Date: </p>
+                            <div className={"width-200"}>
+                                <DatePicker selected={endDate} onChange={(date) => setEndDate(date)} />
+                            </div>
+                        </Col>
+                    </Row>
+
+                    <div>
+                        <TableInput onSubmit={(data) => {
+                            navigateToChart(data.map((item) => item.instrument_id), data.map((item) => parseFloat(item.proportion) / 100));
+                        }}/>
+                    </div>
+                </Row>
             </Container>
         </LoadingOverlay>
     );

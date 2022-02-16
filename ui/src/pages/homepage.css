@@ -10,3 +10,13 @@
 .add-item-button{
     margin-bottom: 30px;
 }
+
+.display-flex-center{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.date-label{
+    margin-right: 10px;
+}
