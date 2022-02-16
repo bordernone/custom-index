@@ -1,4 +1,4 @@
-import {Button, FormControl, InputGroup} from 'react-bootstrap';
+import {Button, Container, Form, Table, Row} from 'react-bootstrap';
 import './homepage.css';
 import {useEffect, useState} from "react";
 import axios from "axios";
@@ -7,107 +7,106 @@ import LoadingOverlay from 'react-loading-overlay';
 
 const instruments = new Map();
 
-function Table({onSubmit}) {
-    const [rowItemsList, setRowItemsList] = useState([]);
+const options = () => {
+    let select_options = [];
+    instruments.forEach((instrument, index) => {
+        select_options.push(<option key={index} value={instrument.id}>{instrument.name}</option>)
+    });
+    return select_options;
+}
+
+const Get_First_Instrument_ID = () => {
+    return "2000";
+}
+
+const TableRow = ({updateHandler}) => {
+    const [proportion, setProportion] = useState(0);
+    const [instrument_id, setInstrument_id] = useState(Get_First_Instrument_ID());
+
+    const handleProportionChange = (e) => {
+        setProportion(e.target.value);
+        updateHandler({
+            proportion: e.target.value,
+            instrument_id: instrument_id
+        })
+    }
+
+    const handleSelectChange = (e) => {
+        setInstrument_id(e.target.value);
+        updateHandler({
+            proportion: proportion,
+            instrument_id: e.target.value
+        })
+    }
+
+    return (
+        <tr>
+            <td>
+                <Form.Select value={instrument_id} onChange={handleSelectChange}>
+                    {options().map((data) => data)}
+                </Form.Select>
+            </td>
+            <td className={"table-text-center"}>
+                {"Cool"}
+            </td>
+            <td>
+                <Form.Control
+                    type="number"
+                    value={proportion}
+                    onChange={handleProportionChange}
+                />
+            </td>
+        </tr>
+    )
+}
+
+function TableInput({onSubmit}) {
+    const [elementsProp, setElementsProp] = useState([]);
     const [numberOfElements, setNumberOfElements] = useState(0);
 
-    const handleConfirmClick = () => {
-        let items = [];
-        let firstItem = instruments.keys().next().value;
-        new Array(numberOfElements).fill(null).forEach((item, index) => {
-            items.push({
-                instrument_id: firstItem,
-                proportion: 0
-            })
+    const onElementUpdate = (rowIndex, newObj) => {
+        let elemProps = [...elementsProp];
+        elemProps[rowIndex] = newObj;
+        setElementsProp(elemProps);
+    }
+
+    const onAddItem = () => {
+        onElementUpdate(numberOfElements, {
+            proportion: 0,
+            instrument_id: Get_First_Instrument_ID()
         })
-        setRowItemsList(items);
+        setNumberOfElements(numberOfElements + 1);
     }
-
-    const handleInstrumentsCountChange = (e) => {
-        if (!isNaN(e.target.value)) setNumberOfElements(parseInt(e.target.value));
-    }
-
-    const Row = ({index}) => {
-        const [proportion, setProportion] = useState(rowItemsList[index].proportion);
-
-        const handleSelectChange = (e) => {
-            let newList = [...rowItemsList];
-            newList[index].instrument_id = e.target.value;
-            setRowItemsList(newList);
-        }
-
-        const options = () => {
-            let select_options = [];
-            instruments.forEach((instrument, index) => {
-                select_options.push(<option key={index} value={instrument.id}>{instrument.name}</option>)
-            });
-            return select_options;
-        }
-
-        const getDesc = () => {
-            if (rowItemsList[index].instrument_id) {
-                return instruments.get(rowItemsList[index].instrument_id).name;
-            }
-            return "No instrument selected";
-        }
-
-        const handleInputChange = () => {
-            let newList = [...rowItemsList];
-            newList[index].proportion = proportion;
-            setRowItemsList(newList);
-        }
-
-        return (
-            <tr>
-                <td>
-                    <select onChange={handleSelectChange} value={rowItemsList[index].instrument_id}>
-                        {options().map((data) => data)}
-                    </select>
-                </td>
-                <td>{getDesc()}</td>
-                <td><input onBlur={handleInputChange}
-                           value={proportion}
-                           onChange={(e) => {
-                               setProportion(e.target.value)
-                           }}/>
-                </td>
-            </tr>
-        )
-    }
-
 
     return (
         <div>
-            <div>
-                <InputGroup className="mb-3">
-                    <FormControl
-                        aria-describedby="basic-addon2"
-                        onChange={handleInstrumentsCountChange}
-                        value={numberOfElements}
-                    />
-                    <Button variant="outline-secondary" onClick={handleConfirmClick}>
-                        Go
-                    </Button>
-                </InputGroup>
-            </div>
-            <table>
-                <thead>
-                <tr>
-                    <th className={"width-200"}>Instrument</th>
-                    <th className={"width-200"}>Description</th>
-                    <th className={"width-200"}>Investment Proportion</th>
-                </tr>
-                </thead>
-                <tbody>
-                {
-                    rowItemsList.map((item, index) => <Row index={index} key={index}/>)
-                }
-                </tbody>
-            </table>
+            <Row>
+                <Table className={"text-center"}>
+                    <thead>
+                    <tr>
+                        <th className={"width-200"}>Instrument</th>
+                        <th className={"width-200"}>Description</th>
+                        <th className={"width-200"}>Investment Proportion</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {
+                        new Array(numberOfElements).fill(0).map((item, index) => <TableRow key={index} updateHandler={(newObj) => {onElementUpdate(index, newObj)}}/>)
+                    }
+                    </tbody>
+                </Table>
+            </Row>
 
-            <div>
-                <Button onClick={() => {onSubmit(rowItemsList)}} >Submit</Button>
-            </div>
+            <Row className={"justify-content-md-center"}>
+                    <Button variant="secondary" onClick={onAddItem} className={"add-item-button"}>
+                        &#x2B; Add Item
+                    </Button>
+
+                    <Button onClick={() => {onSubmit(elementsProp)}} >
+                        Submit
+                    </Button>
+            </Row>
+
         </div>
     )
 }
@@ -121,14 +120,18 @@ export default function Homepage() {
         getInstruments();
     });
 
-    const getInstruments = (ids, proportions) => {
+    const getInstruments = () => {
         const options = {
             method: 'GET',
             url: 'api/instruments',
         };
 
         axios.request(options).then(function (response) {
-            for (const i of response.data) {
+            let temp = [...response.data];
+            temp.sort(function (first, second) {
+                return ('' + first.name).localeCompare(second.name);
+            })
+            for (const i of temp) {
                 instruments.set(i.id, i);
             }
             setLoading(false);
@@ -149,13 +152,15 @@ export default function Homepage() {
     return (
         <LoadingOverlay active={loading}
                         spinner
-                        text='Loading your content...'
+                        text='Loading...'
         >
-            <div style={{padding: "1rem 0", minHeight: '100vh'}}>
-                <Table onSubmit={(data) => {
-                    navigateToChart(data.map((item) => item.instrument_id), data.map((item) => parseFloat(item.proportion) / 100));
-                }}/>
-            </div>
+            <Container>
+                <div style={{padding: "1rem 0", minHeight: '100vh'}}>
+                    <TableInput onSubmit={(data) => {
+                        navigateToChart(data.map((item) => item.instrument_id), data.map((item) => parseFloat(item.proportion) / 100));
+                    }}/>
+                </div>
+            </Container>
         </LoadingOverlay>
     );
 }

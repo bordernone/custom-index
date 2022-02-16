@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Chart from "./chart";
+import Chart from "./pages/chart";
 import Homepage from "./pages/homepage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,7 +12,6 @@ ReactDOM.render(
         <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="chart" element={<Chart />} />
-            {/*<Route path="invoices" element={<Invoices />} />*/}
         </Routes>
     </BrowserRouter>,
   document.getElementById('root')

@@ -1,3 +1,12 @@
 .width-200{
     width: 200px;
 }
+
+.table-text-center{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.add-item-button{
+    margin-bottom: 30px;
+}
