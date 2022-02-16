@@ -1,0 +1,4545 @@
+[
+  {
+    "Instrument": "EBS.AT/EUR",
+    "Description": "Erste Group Bank AG",
+    "market": "Austria",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RBI.AT/EUR",
+    "Description": "Raiffeisen Bank International AG",
+    "market": "Austria",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VOE.AT/EUR",
+    "Description": "Voestalpine AG",
+    "market": "Austria",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ABI.BE/EUR",
+    "Description": "Anheuser-Busch InBev NV",
+    "market": "Belgium",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AGS.BE/EUR",
+    "Description": "Ageas",
+    "market": "Belgium",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BELG.BE/EUR",
+    "Description": "Proximus",
+    "market": "Belgium",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KBC.BE/EUR",
+    "Description": "KBC Groep NV",
+    "market": "Belgium",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SOLB.BE/EUR",
+    "Description": "Solvay SA",
+    "market": "Belgium",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "UCB.BE/EUR",
+    "Description": "UCB SA",
+    "market": "Belgium",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "UMI.BE/EUR",
+    "Description": "Umicore SA",
+    "market": "Belgium",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CARLB.DK/DKK",
+    "Description": "Carlsberg A/S",
+    "market": "Denmark",
+    "point": "0.01 DKK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "COLOB.DK/DKK",
+    "Description": "Coloplast A/S",
+    "market": "Denmark",
+    "point": "0.01 DKK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DANSKE.DK/DKK",
+    "Description": "Danske Bank A/S",
+    "market": "Denmark",
+    "point": "0.01 DKK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MAERSKB.DK/DKK",
+    "Description": "AP Moeller - Maersk A/S",
+    "market": "Denmark",
+    "point": "0.01 DKK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NOVOB.DK/DKK",
+    "Description": "Novo Nordisk A/S",
+    "market": "Denmark",
+    "point": "0.01 DKK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NZYMB.DK/DKK",
+    "Description": "Novozymes A/S",
+    "market": "Denmark",
+    "point": "0.01 DKK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PNDORA.DK/DKK",
+    "Description": "Pandora A/S",
+    "market": "Denmark",
+    "point": "0.01 DKK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VWS.DK/DKK",
+    "Description": "Vestas Wind Systems A/S",
+    "market": "Denmark",
+    "point": "0.01 DKK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ELI1V.FI/EUR",
+    "Description": "Elisa OYJ",
+    "market": "Finland",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NES1V.FI/EUR",
+    "Description": "Neste OYJ",
+    "market": "Finland",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NRE1V.FI/EUR",
+    "Description": "Nokian Renkaat OYJ",
+    "market": "Finland",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "OUT1V.FI/EUR",
+    "Description": "Outokumpu OYJ",
+    "market": "Finland",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "OTE1V.FI/EUR",
+    "Description": "Outotec OYJ",
+    "market": "Finland",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "STERV.FI/EUR",
+    "Description": "Stora Enso OYJ",
+    "market": "Finland",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TLS1V.FI/EUR",
+    "Description": "Telia Company AB",
+    "market": "Finland",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AC.FR/EUR",
+    "Description": "Accor SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ACA.FR/EUR",
+    "Description": "Credit Agricole SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AF.FR/EUR",
+    "Description": "Air France-KLM",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AI.FR/EUR",
+    "Description": "Air Liquide SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AIR.FR/EUR",
+    "Description": "Airbus Group SE",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ALO.FR/EUR",
+    "Description": "Alstom SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BN.FR/EUR",
+    "Description": "Danone SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BNP.FR/EUR",
+    "Description": "BNP Paribas SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CA.FR/EUR",
+    "Description": "Carrefour SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CAP.FR/EUR",
+    "Description": "Cap Gemini SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CS.FR/EUR",
+    "Description": "AXA SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DG.FR/EUR",
+    "Description": "Vinci SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EDF.FR/EUR",
+    "Description": "Electricite de France SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EN.FR/EUR",
+    "Description": "Bouygues SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ENGI.FR/EUR",
+    "Description": "Engie",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FP.FR/EUR",
+    "Description": "Total SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FR.FR/EUR",
+    "Description": "Valeo SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GLE.FR/EUR",
+    "Description": "Societe Generale SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KER.FR/EUR",
+    "Description": "Kering",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LI.FR/EUR",
+    "Description": "Klepierre",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LR.FR/EUR",
+    "Description": "Legrand SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MC.FR/EUR",
+    "Description": "LVMH Moet Hennessy Louis Vuitton SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "OR.FR/EUR",
+    "Description": "L'Oreal SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ORA.FR/EUR",
+    "Description": "Orange SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PUB.FR/EUR",
+    "Description": "Publicis Groupe SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RI.FR/EUR",
+    "Description": "Pernod-Ricard SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RNO.FR/EUR",
+    "Description": "Renault SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SAF.FR/EUR",
+    "Description": "Safran SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SAN.FR/EUR",
+    "Description": "Sanofi",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SGO.FR/EUR",
+    "Description": "Cie de St-Gobain",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SU.FR/EUR",
+    "Description": "Schneider Electric SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VIE.FR/EUR",
+    "Description": "Veolia Environnement SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VIV.FR/EUR",
+    "Description": "Vivendi SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VK.FR/EUR",
+    "Description": "Vallourec SA",
+    "market": "France",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AGN.NL/EUR",
+    "Description": "Aegon NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AH.NL/EUR",
+    "Description": "Koninklijke Ahold Delhaize NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AKZA.NL/EUR",
+    "Description": "Akzo Nobel NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ASML.NL/EUR",
+    "Description": "ASML Holding NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DSM.NL/EUR",
+    "Description": "Koninklijke DSM NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HEIA.NL/EUR",
+    "Description": "Heineken NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "INGA.NL/EUR",
+    "Description": "ING Groep NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KPN.NL/EUR",
+    "Description": "Koninklijke KPN NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MT.NL/EUR",
+    "Description": "ArcelorMittal",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PHIA.NL/EUR",
+    "Description": "Koninklijke Philips NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RAND.NL/EUR",
+    "Description": "Randstad Holding NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RDSA.NL/EUR",
+    "Description": "Royal Dutch Shell PLC",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "REN.NL/EUR",
+    "Description": "RELX NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VPK.NL/EUR",
+    "Description": "Koninklijke Vopak NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "WKL.NL/EUR",
+    "Description": "Wolters Kluwer NV",
+    "market": "Netherlands",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MHG.NO/NOK",
+    "Description": "Marine Harvest ASA",
+    "market": "Norway",
+    "point": "0.01 NOK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NHY.NO/NOK",
+    "Description": "Norsk Hydro ASA",
+    "market": "Norway",
+    "point": "0.01 NOK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ORK.NO/NOK",
+    "Description": "Orkla ASA",
+    "market": "Norway",
+    "point": "0.01 NOK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "STL.NO/NOK",
+    "Description": "Statoil ASA",
+    "market": "Norway",
+    "point": "0.01 NOK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TEL.NO/NOK",
+    "Description": "Telenor ASA",
+    "market": "Norway",
+    "point": "0.01 NOK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EDP.PT/EUR",
+    "Description": "EDP - Energias de Portugal SA",
+    "market": "Portugal",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GALP.PT/EUR",
+    "Description": "Galp Energia SGPS SA",
+    "market": "Portugal",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ACS.ES/EUR",
+    "Description": "ACS Actividades de Construccion y Servicios SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ACX.ES/EUR",
+    "Description": "Acerinox SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AENA.ES/EUR",
+    "Description": "Aena SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AMS.ES/EUR",
+    "Description": "Amadeus IT Holding SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BBVA.ES/EUR",
+    "Description": "Banco Bilbao Vizcaya Argentaria SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CABK.ES/EUR",
+    "Description": "CaixaBank",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DIA.ES/EUR",
+    "Description": "Distribuidora Internacional de Alimentacion SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ELE.ES/EUR",
+    "Description": "Endesa SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ENG.ES/EUR",
+    "Description": "Enagas SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FER.ES/EUR",
+    "Description": "Ferrovial SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GAM.ES/EUR",
+    "Description": "Gamesa Corporacion Tecnologica SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GAS.ES/EUR",
+    "Description": "Gas Natural SDG SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "IBE.ES/EUR",
+    "Description": "Iberdrola SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ITX.ES/EUR",
+    "Description": "Inditex SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "REE.ES/EUR",
+    "Description": "Red Electrica Corp SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "REP.ES/EUR",
+    "Description": "Repsol SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SAN.ES/EUR",
+    "Description": "Banco Santander SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TEF.ES/EUR",
+    "Description": "Telefonica SA",
+    "market": "Spain",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ALFA.SE/SEK",
+    "Description": "Alfa Laval AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ATCOA.SE/SEK",
+    "Description": "Atlas Copco AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ELUXB.SE/SEK",
+    "Description": "Electrolux AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ERICB.SE/SEK",
+    "Description": "Telefonaktiebolaget LM Ericsson",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GETIB.SE/SEK",
+    "Description": "Getinge AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HMB.SE/SEK",
+    "Description": "Hennes & Mauritz AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "INVEB.SE/SEK",
+    "Description": "Investor AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NDA.SE/SEK",
+    "Description": "Nordea Bank AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SAND.SE/SEK",
+    "Description": "Sandvik AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SCAB.SE/SEK",
+    "Description": "Svenska Cellulosa AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SEBA.SE/SEK",
+    "Description": "Skandinaviska Enskilda Banken AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SECUB.SE/SEK",
+    "Description": "Securitas AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SKAB.SE/SEK",
+    "Description": "Skanska AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SKFB.SE/SEK",
+    "Description": "SKF AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SWEDA.SE/SEK",
+    "Description": "Swedbank AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SWMA.SE/SEK",
+    "Description": "Swedish Match AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TEL2B.SE/SEK",
+    "Description": "Tele2 AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TLSN.SE/SEK",
+    "Description": "Telia Company AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VOLVB.SE/SEK",
+    "Description": "Volvo AB",
+    "market": "Sweden",
+    "point": "0.01 SEK",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ABBN.CH/CHF",
+    "Description": "ABB Ltd",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ADEN.CH/CHF",
+    "Description": "Adecco SA",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BAER.CH/CHF",
+    "Description": "Julius Baer Group Ltd",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CLN.CH/CHF",
+    "Description": "Clariant AG",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CSGN.CH/CHF",
+    "Description": "Credit Suisse Group AG",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GIVN.CH/CHF",
+    "Description": "Givaudan SA",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KNIN.CH/CHF",
+    "Description": "Kuehne + Nagel International AG",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LHN.CH/CHF",
+    "Description": "Lafarge Holcim Ltd",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LONN.CH/CHF",
+    "Description": "Lonza Group AG",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NESN.CH/CHF",
+    "Description": "Nestle SA",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NOVN.CH/CHF",
+    "Description": "Novartis AG",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ROG.CH/CHF",
+    "Description": "Roche Holding AG",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SCMN.CH/CHF",
+    "Description": "Swisscom AG",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SGSN.CH/CHF",
+    "Description": "SGS SA",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SLHN.CH/CHF",
+    "Description": "Swiss Life Holding AG",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SOON.CH/CHF",
+    "Description": "Sonova Holding AG",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SREN.CH/CHF",
+    "Description": "Swiss Re AG",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "UBSG.CH/CHF",
+    "Description": "UBS Group AG",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "UHR.CH/CHF",
+    "Description": "Swatch Group AG/The",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ZURN.CH/CHF",
+    "Description": "Zurich Insurance Group AG",
+    "market": "Switzerland",
+    "point": "0.01 CHF",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AAL.GB/GBX",
+    "Description": "Anglo American PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ABF.GB/GBX",
+    "Description": "Associated British Foods PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ADM.GB/GBX",
+    "Description": "Admiral Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AGK.GB/GBX",
+    "Description": "Aggreko PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AHT.GB/GBX",
+    "Description": "Ashtead Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ANTO.GB/GBX",
+    "Description": "Antofagasta PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AV.GB/GBX",
+    "Description": "Aviva PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AZN.GB/GBX",
+    "Description": "AstraZeneca PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BA.GB/GBX",
+    "Description": "BAE Systems PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BAB.GB/GBX",
+    "Description": "Babcock International Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BARC.GB/GBX",
+    "Description": "Barclays PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BATS.GB/GBX",
+    "Description": "British American Tobacco PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BLND.GB/GBX",
+    "Description": "British Land Co PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BLT.GB/GBX",
+    "Description": "BHP Billiton PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BNZL.GB/GBX",
+    "Description": "Bunzl PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BP.GB/GBX",
+    "Description": "BP PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BRBY.GB/GBX",
+    "Description": "Burberry Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BT.GB/GBX",
+    "Description": "BT Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CCL.GB/GBX",
+    "Description": "Carnival PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CNA.GB/GBX",
+    "Description": "Centrica PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CPG.GB/GBX",
+    "Description": "Compass Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CPI.GB/GBX",
+    "Description": "Capita PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CRDA.GB/GBX",
+    "Description": "Croda International PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CRH.GB/GBX",
+    "Description": "CRH PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DGE.GB/GBX",
+    "Description": "Diageo PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EXPN.GB/GBX",
+    "Description": "Experian PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EZJ.GB/GBX",
+    "Description": "easyJet PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FRES.GB/GBX",
+    "Description": "Fresnillo PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GFS.GB/GBX",
+    "Description": "G4S PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GLEN.GB/GBX",
+    "Description": "Glencore PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GSK.GB/GBX",
+    "Description": "GlaxoSmithKline PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HMSO.GB/GBX",
+    "Description": "Hammerson PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HSBA.GB/GBX",
+    "Description": "HSBC Holdings PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "IAG.GB/GBX",
+    "Description": "International Consolidated Airlines Grou",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "IHG.GB/GBX",
+    "Description": "InterContinental Hotels Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "IMT.GB/GBX",
+    "Description": "Imperial Brands Plc",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ISAT.GB/GBX",
+    "Description": "Inmarsat PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ITRK.GB/GBX",
+    "Description": "Intertek Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ITV.GB/GBX",
+    "Description": "ITV PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KGF.GB/GBX",
+    "Description": "Kingfisher PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LAND.GB/GBX",
+    "Description": "Land Securities Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LGEN.GB/GBX",
+    "Description": "Legal & General Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LLOY.GB/GBX",
+    "Description": "Lloyds Banking Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LSE.GB/GBX",
+    "Description": "London Stock Exchange Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MKS.GB/GBX",
+    "Description": "Marks & Spencer Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MNDI.GB/GBX",
+    "Description": "Mondi PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MRW.GB/GBX",
+    "Description": "WM Morrison Supermarkets PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NG.GB/GBX",
+    "Description": "National Grid PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NXT.GB/GBX",
+    "Description": "Next PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PFC.GB/GBX",
+    "Description": "Petrofac Ltd",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PRU.GB/GBX",
+    "Description": "Prudential PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PSN.GB/GBX",
+    "Description": "Persimmon PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PSON.GB/GBX",
+    "Description": "Pearson PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RB.GB/GBX",
+    "Description": "Reckitt Benckiser Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RBS.GB/GBX",
+    "Description": "Royal Bank of Scotland Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RDSB.GB/GBX",
+    "Description": "Royal Dutch Shell PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "REL.GB/GBX",
+    "Description": "RELX PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RIO.GB/GBX",
+    "Description": "Rio Tinto PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RMG.GB/GBX",
+    "Description": "Royal Mail PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RR.GB/GBX",
+    "Description": "Rolls-Royce Holdings PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RSA.GB/GBX",
+    "Description": "RSA Insurance Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SBRY.GB/GBX",
+    "Description": "J Sainsbury PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SGE.GB/GBX",
+    "Description": "Sage Group PLC/The",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SLA.GB/GBX",
+    "Description": "Abrdn Plc",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SMIN.GB/GBX",
+    "Description": "Smiths Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SN.GB/GBX",
+    "Description": "Smith & Nephew PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SSE.GB/GBX",
+    "Description": "SSE PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "STAN.GB/GBX",
+    "Description": "Standard Chartered PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SVT.GB/GBX",
+    "Description": "Severn Trent PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TATE.GB/GBX",
+    "Description": "Tate & Lyle PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TLW.GB/GBX",
+    "Description": "Tullow Oil PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TPK.GB/GBX",
+    "Description": "Travis Perkins PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TSCO.GB/GBX",
+    "Description": "Tesco PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ULVR.GB/GBX",
+    "Description": "Unilever PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "UU.GB/GBX",
+    "Description": "United Utilities Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VOD.GB/GBX",
+    "Description": "Vodafone Group PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "WEIR.GB/GBX",
+    "Description": "Weir Group PLC/The",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "WOS.GB/GBX",
+    "Description": "Wolseley PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "WPP.GB/GBX",
+    "Description": "WPP PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "WTB.GB/GBX",
+    "Description": "Whitbread PLC",
+    "market": "UK",
+    "point": "0.01 GBX",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AABV.US/USD",
+    "Description": "AbbVie Inc ",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ADS.DE/EUR",
+    "Description": "Adidas AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ALV.DE/EUR",
+    "Description": "Allianz SE",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AMWL.US/USD",
+    "Description": "American Well Corp. (Class A) ",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BAS.DE/EUR",
+    "Description": "BASF SE",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BAYN.DE/EUR",
+    "Description": "Bayer AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BEI.DE/EUR",
+    "Description": "Beiersdorf AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BMW.DE/EUR",
+    "Description": "Bayerische Motoren Werke AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BOSS.DE/EUR",
+    "Description": "HUGO BOSS AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CBK.DE/EUR",
+    "Description": "Commerzbank AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CON.DE/EUR",
+    "Description": "Continental AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DB1.DE/EUR",
+    "Description": "Deutsche Boerse AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DBK.DE/EUR",
+    "Description": "Deutsche Bank AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DAI.DE/EUR",
+    "Description": "Daimler AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DPW.DE/EUR",
+    "Description": "Deutsche Post AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DTE.DE/EUR",
+    "Description": "Deutsche Telekom AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EOAN.DE/EUR",
+    "Description": "E.ON SE",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FME.DE/EUR",
+    "Description": "Fresenius Medical Care AG & Co KGaA",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FRE.DE/EUR",
+    "Description": "Fresenius SE & Co KGaA",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HEI.DE/EUR",
+    "Description": "HeidelbergCement AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HEN3.DE/EUR",
+    "Description": "Henkel AG & Co KGaA",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "IFX.DE/EUR",
+    "Description": "Infineon Technologies AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LXS.DE/EUR",
+    "Description": "Lanxess AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LHA.DE/EUR",
+    "Description": "Deutsche Lufthansa AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LIN.DE/EUR",
+    "Description": "Linde AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MRK.DE/EUR",
+    "Description": "Merck KGaA",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MUV2.DE/EUR",
+    "Description": "Muenchener Rueckversicherungs AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PAH3.DE/EUR",
+    "Description": "Porsche Automobil Holding SE",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PSM.DE/EUR",
+    "Description": "ProSiebenSat.1 Media AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RWE.DE/EUR",
+    "Description": "RWE AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SAP.DE/EUR",
+    "Description": "SAP AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SDF.DE/EUR",
+    "Description": "K+S AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SIE.DE/EUR",
+    "Description": "Siemens AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TKA.DE/EUR",
+    "Description": "ThyssenKrupp AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TUI1.DE/EUR",
+    "Description": "TUI AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VNA.DE/EUR",
+    "Description": "Vonovia SE",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VOW3.DE/EUR",
+    "Description": "Volkswagen AG",
+    "market": "Germany",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "A.US/USD",
+    "Description": "AGILENT TECHNOLOGIES INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AA.US/USD",
+    "Description": "ALCOA INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AAL.US/USD",
+    "Description": "AMERICAN AIRLINES GROUP INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AAPL.US/USD",
+    "Description": "APPLE INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ABC.US/USD",
+    "Description": "AMERISOURCEBERGEN CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ABEV.US/USD",
+    "Description": "Ambev S.A.",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ABT.US/USD",
+    "Description": "ABBOTT LABORATORIES",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ADBE.US/USD",
+    "Description": "ADOBE SYSTEMS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ADI.US/USD",
+    "Description": "ANALOG DEVICES INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ADP.US/USD",
+    "Description": "AUTOMATIC DATA PROCESSING",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ADSK.US/USD",
+    "Description": "AUTODESK INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AEP.US/USD",
+    "Description": "AMERICAN ELECTRIC POWER",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AIG.US/USD",
+    "Description": "AMERICAN INTERNATIONAL GROUP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ALL.US/USD",
+    "Description": "ALLSTATE CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ALXN.US/USD",
+    "Description": "ALEXION PHARMACEUTICALS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AMAT.US/USD",
+    "Description": "APPLIED MATERIALS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AMD.US/USD",
+    "Description": "ADVANCED MICRO DEVICES",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AMGN.US/USD",
+    "Description": "AMGEN INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AMP.US/USD",
+    "Description": "AMERIPRISE FINANCIAL INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AMT.US/USD",
+    "Description": "AMERICAN TOWER CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AMZN.US/USD",
+    "Description": "AMAZON.COM INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ANTM.US/USD",
+    "Description": "ANTHEM INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "APA.US/USD",
+    "Description": "APACHE CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "APD.US/USD",
+    "Description": "AIR PRODUCTS & CHEMICALS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ATVI.US/USD",
+    "Description": "ACTIVISION BLIZZARD INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AVB.US/USD",
+    "Description": "AVALONBAY COMMUNITIES INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AVGO.US/USD",
+    "Description": "Broadcom Limited",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AXP.US/USD",
+    "Description": "AMERICAN EXPRESS CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AZN.US/USD",
+    "Description": "AstraZeneca PLC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AZO.US/USD",
+    "Description": "AUTOZONE INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BA.US/USD",
+    "Description": "Boeing Co",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BABA.US/USD",
+    "Description": "ALIBABA GROUP HOLDING-SP ADR",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BAC.US/USD",
+    "Description": "BANK OF AMERICA CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BBD.US/USD",
+    "Description": "Banco Bradesco S.A.",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BBY.US/USD",
+    "Description": "BEST BUY CO INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BDX.US/USD",
+    "Description": "BECTON DICKINSON AND CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BIDU.US/USD",
+    "Description": "BAIDU INC - SPON ADR",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BIIB.US/USD",
+    "Description": "BIOGEN INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BK.US/USD",
+    "Description": "BANK OF NEW YORK MELLON CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BMY.US/USD",
+    "Description": "BRISTOL-MYERS SQUIBB CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BP.US/USD",
+    "Description": "BP p.l.c.",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BRKB.US/USD",
+    "Description": "BERKSHIRE HATHAWAY INC-CL B",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BSX.US/USD",
+    "Description": "BOSTON SCIENTIFIC CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "C.US/USD",
+    "Description": "CITIGROUP INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CAG.US/USD",
+    "Description": "CONAGRA FOODS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CAH.US/USD",
+    "Description": "CARDINAL HEALTH INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CAT.US/USD",
+    "Description": "CATERPILLAR INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CERN.US/USD",
+    "Description": "CERNER CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CF.US/USD",
+    "Description": "CF INDUSTRIES HOLDINGS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CI.US/USD",
+    "Description": "CIGNA CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CL.US/USD",
+    "Description": "COLGATE-PALMOLIVE CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CMCSA.US/USD",
+    "Description": "COMCAST CORP-CLASS A",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CME.US/USD",
+    "Description": "CME GROUP INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CMG.US/USD",
+    "Description": "CHIPOTLE MEXICAN GRILL INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CMI.US/USD",
+    "Description": "CUMMINS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "COF.US/USD",
+    "Description": "CAPITAL ONE FINANCIAL CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "COP.US/USD",
+    "Description": "CONOCOPHILLIPS",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "COST.US/USD",
+    "Description": "COSTCO WHOLESALE CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CRM.US/USD",
+    "Description": "SALESFORCE.COM INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CS.US/USD",
+    "Description": "Credit Suisse Group AG",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CSCO.US/USD",
+    "Description": "CISCO SYSTEMS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CSX.US/USD",
+    "Description": "CSX CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CTL.US/USD",
+    "Description": "CENTURYLINK INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CTSH.US/USD",
+    "Description": "COGNIZANT TECH SOLUTIONS-A",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CTXS.US/USD",
+    "Description": "CITRIX SYSTEMS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CVS.US/USD",
+    "Description": "CVS HEALTH CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CVX.US/USD",
+    "Description": "CHEVRON CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "D.US/USD",
+    "Description": "DOMINION RESOURCES INC/VA",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DAL.US/USD",
+    "Description": "DELTA AIR LINES INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DE.US/USD",
+    "Description": "DEERE & CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DFS.US/USD",
+    "Description": "DISCOVER FINANCIAL SERVICES",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DG.US/USD",
+    "Description": "DOLLAR GENERAL CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DHI.US/USD",
+    "Description": "DR HORTON INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DHR.US/USD",
+    "Description": "DANAHER CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DIS.US/USD",
+    "Description": "WALT DISNEY CO/THE",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DLTR.US/USD",
+    "Description": "DOLLAR TREE INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DUK.US/USD",
+    "Description": "DUKE ENERGY CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DVA.US/USD",
+    "Description": "DAVITA HEALTHCARE PARTNERS I",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DVN.US/USD",
+    "Description": "DEVON ENERGY CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EA.US/USD",
+    "Description": "ELECTRONIC ARTS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EBAY.US/USD",
+    "Description": "EBAY INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EFX.US/USD",
+    "Description": "EQUIFAX INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EIX.US/USD",
+    "Description": "EDISON INTERNATIONAL",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EL.US/USD",
+    "Description": "ESTEE LAUDER COMPANIES-CL A",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EMR.US/USD",
+    "Description": "EMERSON ELECTRIC CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EOG.US/USD",
+    "Description": "EOG RESOURCES INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EQT.US/USD",
+    "Description": "EQT CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EXC.US/USD",
+    "Description": "EXELON CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "EXPE.US/USD",
+    "Description": "EXPEDIA INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "F.US/USD",
+    "Description": "FORD MOTOR CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FB.US/USD",
+    "Description": "FACEBOOK INC-A",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FCX.US/USD",
+    "Description": "FREEPORT-MCMORAN INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FDX.US/USD",
+    "Description": "FEDEX CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FE.US/USD",
+    "Description": "FIRSTENERGY CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FITB.US/USD",
+    "Description": "FIFTH THIRD BANCORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FOXA.US/USD",
+    "Description": "TWENTY-FIRST CENTURY FOX-A",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GE.US/USD",
+    "Description": "GENERAL ELECTRIC CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GILD.US/USD",
+    "Description": "GILEAD SCIENCES INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GIS.US/USD",
+    "Description": "GENERAL MILLS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GLW.US/USD",
+    "Description": "CORNING INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GM.US/USD",
+    "Description": "GENERAL MOTORS CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GOOG.US/USD",
+    "Description": "ALPHABET INC-CL C",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GOOGL.US/USD",
+    "Description": "ALPHABET INC-CL A",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GPS.US/USD",
+    "Description": "GAP INC/THE",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GS.US/USD",
+    "Description": "GOLDMAN SACHS GROUP INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "GWW.US/USD",
+    "Description": "WW GRAINGER INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HAL.US/USD",
+    "Description": "HALLIBURTON CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HCN.US/USD",
+    "Description": "WELLTOWER INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HD.US/USD",
+    "Description": "HOME DEPOT INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HES.US/USD",
+    "Description": "HESS CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HON.US/USD",
+    "Description": "HONEYWELL INTERNATIONAL INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HPQ.US/USD",
+    "Description": "HP INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "HUM.US/USD",
+    "Description": "HUMANA INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "IBM.US/USD",
+    "Description": "INTL BUSINESS MACHINES CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ICE.US/USD",
+    "Description": "INTERCONTINENTAL EXCHANGE IN",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ILMN.US/USD",
+    "Description": "ILLUMINA INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "INTC.US/USD",
+    "Description": "INTEL CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "INTU.US/USD",
+    "Description": "INTUIT INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "IPG.US/USD",
+    "Description": "INTERPUBLIC GROUP OF COS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ISRG.US/USD",
+    "Description": "INTUITIVE SURGICAL INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ITUB.US/USD",
+    "Description": "Itau Unibanco Holding S.A.",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ITW.US/USD",
+    "Description": "ILLINOIS TOOL WORKS",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "JCI.US/USD",
+    "Description": "JOHNSON CONTROLS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "JNJ.US/USD",
+    "Description": "JOHNSON & JOHNSON",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "JPM.US/USD",
+    "Description": "JPMORGAN CHASE & CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "JWN.US/USD",
+    "Description": "NORDSTROM INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "K.US/USD",
+    "Description": "KELLOGG CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KEY.US/USD",
+    "Description": "KEYCORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KHC.US/USD",
+    "Description": "KRAFT HEINZ CO/THE",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KMB.US/USD",
+    "Description": "KIMBERLY-CLARK CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KMI.US/USD",
+    "Description": "KINDER MORGAN INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KO.US/USD",
+    "Description": "COCA-COLA CO/THE",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KR.US/USD",
+    "Description": "KROGER CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KSS.US/USD",
+    "Description": "KOHLS CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "L.US/USD",
+    "Description": "LOEWS CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LEN.US/USD",
+    "Description": "LENNAR CORP-A",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LLY.US/USD",
+    "Description": "ELI LILLY & CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LMT.US/USD",
+    "Description": "LOCKHEED MARTIN CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LOW.US/USD",
+    "Description": "LOWE'S COS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LRCX.US/USD",
+    "Description": "LAM RESEARCH CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LUV.US/USD",
+    "Description": "SOUTHWEST AIRLINES CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LVS.US/USD",
+    "Description": "Las Vegas Sands Corp.",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "M.US/USD",
+    "Description": "MACY'S INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MA.US/USD",
+    "Description": "MASTERCARD INC-CLASS A",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MAR.US/USD",
+    "Description": "MARRIOTT INTERNATIONAL -CL A",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MAT.US/USD",
+    "Description": "MATTEL INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MCD.US/USD",
+    "Description": "MCDONALD'S CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MCHP.US/USD",
+    "Description": "MICROCHIP TECHNOLOGY INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MCK.US/USD",
+    "Description": "MCKESSON CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MDLZ.US/USD",
+    "Description": "MONDELEZ INTERNATIONAL INC-A",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MET.US/USD",
+    "Description": "METLIFE INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MGM.US/USD",
+    "Description": "MGM RESORTS INTERNATIONAL",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MMM.US/USD",
+    "Description": "3M CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MO.US/USD",
+    "Description": "ALTRIA GROUP INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MPC.US/USD",
+    "Description": "MARATHON PETROLEUM CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MRK.US/USD",
+    "Description": "MERCK & CO. INC.",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MRNA.US/USD",
+    "Description": "Moderna ",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MRO.US/USD",
+    "Description": "MARATHON OIL CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MS.US/USD",
+    "Description": "MORGAN STANLEY",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MSFT.US/USD",
+    "Description": "MICROSOFT CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MU.US/USD",
+    "Description": "MICRON TECHNOLOGY INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NEE.US/USD",
+    "Description": "NEXTERA ENERGY INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NEM.US/USD",
+    "Description": "NEWMONT MINING CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NFLX.US/USD",
+    "Description": "NETFLIX INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NKE.US/USD",
+    "Description": "NIKE INC -CL B",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NIO.US/USD",
+    "Description": "Nio INC ",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NOC.US/USD",
+    "Description": "NORTHROP GRUMMAN CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NRG.US/USD",
+    "Description": "NRG ENERGY INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NSC.US/USD",
+    "Description": "NORFOLK SOUTHERN CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NVDA.US/USD",
+    "Description": "NVIDIA CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "NWL.US/USD",
+    "Description": "NEWELL BRANDS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "OKE.US/USD",
+    "Description": "ONEOK INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "OMC.US/USD",
+    "Description": "OMNICOM GROUP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ORCL.US/USD",
+    "Description": "ORACLE CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ORLY.US/USD",
+    "Description": "O'REILLY AUTOMOTIVE INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "OXY.US/USD",
+    "Description": "OCCIDENTAL PETROLEUM CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PAYX.US/USD",
+    "Description": "PAYCHEX INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PBR.US/USD",
+    "Description": "Petroleo Brasileiro S.A.",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PCAR.US/USD",
+    "Description": "PACCAR INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PCG.US/USD",
+    "Description": "P G & E CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PCLN.US/USD",
+    "Description": "PRICELINE GROUP INC/THE",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PEP.US/USD",
+    "Description": "PEPSICO INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PFE.US/USD",
+    "Description": "PFIZER INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PG.US/USD",
+    "Description": "PROCTER & GAMBLE CO/THE",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PGR.US/USD",
+    "Description": "PROGRESSIVE CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PH.US/USD",
+    "Description": "PARKER HANNIFIN CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PM.US/USD",
+    "Description": "PHILIP MORRIS INTERNATIONAL",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PNC.US/USD",
+    "Description": "PNC FINANCIAL SERVICES GROUP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PPG.US/USD",
+    "Description": "PPG INDUSTRIES INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PLTR.US/USD",
+    "Description": "Palantir Technologies Inc. (Class A)",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PTON.US/USD",
+    "Description": "Peloton Interactive Inc ",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PLUG.US/USD",
+    "Description": "Plug Power Inc ",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PRU.US/USD",
+    "Description": "PRUDENTIAL FINANCIAL INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PSA.US/USD",
+    "Description": "PUBLIC STORAGE",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PSX.US/USD",
+    "Description": "PHILLIPS 66",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PXD.US/USD",
+    "Description": "PIONEER NATURAL RESOURCES CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PYPL.US/USD",
+    "Description": "PAYPAL HOLDINGS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "QCOM.US/USD",
+    "Description": "QUALCOMM INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "REGN.US/USD",
+    "Description": "REGENERON PHARMACEUTICALS",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RF.US/USD",
+    "Description": "REGIONS FINANCIAL CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ROST.US/USD",
+    "Description": "ROSS STORES INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ROKU.US/USD",
+    "Description": "Roku Inc ",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RRC.US/USD",
+    "Description": "RANGE RESOURCES CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SBUX.US/USD",
+    "Description": "STARBUCKS CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SCHW.US/USD",
+    "Description": "SCHWAB (CHARLES) CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SHW.US/USD",
+    "Description": "SHERWIN-WILLIAMS CO/THE",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SJM.US/USD",
+    "Description": "JM SMUCKER CO/THE",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SNOW.US/USD",
+    "Description": "Snowflake Inc. (Class A)",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SNAP.US/USD",
+    "Description": "SNAP Inc.",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SO.US/USD",
+    "Description": "SOUTHERN CO/THE",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SPG.US/USD",
+    "Description": "SIMON PROPERTY GROUP INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "STT.US/USD",
+    "Description": "STATE STREET CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "STZ.US/USD",
+    "Description": "CONSTELLATION BRANDS INC-A",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SQ.US/USD",
+    "Description": "Square Inc ",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SWK.US/USD",
+    "Description": "STANLEY BLACK & DECKER INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SYK.US/USD",
+    "Description": "STRYKER CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SYY.US/USD",
+    "Description": "SYSCO CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "T.US/USD",
+    "Description": "AT&T INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TAP.US/USD",
+    "Description": "MOLSON COORS BREWING CO -B",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TEVA.US/USD",
+    "Description": "TEVA PHARMACEUTICAL-SP ADR",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TGT.US/USD",
+    "Description": "TARGET CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TIF.US/USD",
+    "Description": "TIFFANY & CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TJX.US/USD",
+    "Description": "TJX COMPANIES INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TMO.US/USD",
+    "Description": "THERMO FISHER SCIENTIFIC INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TROW.US/USD",
+    "Description": "T ROWE PRICE GROUP INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TRV.US/USD",
+    "Description": "TRAVELERS COS INC/THE",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TSLA.US/USD",
+    "Description": "TESLA MOTORS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TSM.US/USD",
+    "Description": "Taiwan Semiconductor Manufacturing Company Limited",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TSN.US/USD",
+    "Description": "TYSON FOODS INC-CL A",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TWTR.US/USD",
+    "Description": "TWITTER INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TXN.US/USD",
+    "Description": "TEXAS INSTRUMENTS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "UBER.US/USD",
+    "Description": "Uber Technologies Inc.",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ULTA.US/USD",
+    "Description": "ULTA SALON COSMETICS & FRAGR",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "UNH.US/USD",
+    "Description": "UNITEDHEALTH GROUP INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "UNP.US/USD",
+    "Description": "UNION PACIFIC CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "UPS.US/USD",
+    "Description": "UNITED PARCEL SERVICE-CL B",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "USB.US/USD",
+    "Description": "US BANCORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "V.US/USD",
+    "Description": "VISA INC-CLASS A SHARES",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VALE.US/USD",
+    "Description": "Vale S.A.",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VFC.US/USD",
+    "Description": "VF CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VLO.US/USD",
+    "Description": "VALERO ENERGY CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VMC.US/USD",
+    "Description": "VULCAN MATERIALS CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VRTX.US/USD",
+    "Description": "VERTEX PHARMACEUTICALS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "VZ.US/USD",
+    "Description": "VERIZON COMMUNICATIONS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "WBA.US/USD",
+    "Description": "WALGREENS BOOTS ALLIANCE INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "WDC.US/USD",
+    "Description": "WESTERN DIGITAL CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "WFC.US/USD",
+    "Description": "WELLS FARGO & CO",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "WHR.US/USD",
+    "Description": "WHIRLPOOL CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "WMT.US/USD",
+    "Description": "WAL-MART STORES INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "WYNN.US/USD",
+    "Description": "WYNN RESORTS LTD",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "X.US/USD",
+    "Description": "UNITED STATES STEEL CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "XLNX.US/USD",
+    "Description": "XILINX INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "XOM.US/USD",
+    "Description": "EXXON MOBIL CORP",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "XPEV.US/USD",
+    "Description": "Xpeng Inc ADR ",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "YUM.US/USD",
+    "Description": "YUM! BRANDS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ZBH.US/USD",
+    "Description": "ZIMMER BIOMET HOLDINGS INC",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ZM.US/USD",
+    "Description": "Zoom Video Communications Inc. (Class A)",
+    "market": "US",
+    "point": "0.01 USD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "0005.HK/HKD",
+    "Description": "HSBC Holdings Plc",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "0027.HK/HKD",
+    "Description": "Galaxy Entertainment Group Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "0175.HK/HKD",
+    "Description": "Geely Automobile Holdings Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "0291.HK/HKD",
+    "Description": "China Resources Beer Holdings Co Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "0386.HK/HKD",
+    "Description": "Sinopec Corp",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "0388.HK/HKD",
+    "Description": "HK Exchanges & Clearing Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "0700.HK/HKD",
+    "Description": "Tencent Holdings Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "0857.HK/HKD",
+    "Description": "PetroChina Co Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "0883.HK/HKD",
+    "Description": "China National Offshore Oil Corporation Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "0939.HK/HKD",
+    "Description": "China Construction Bank Corp",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "0941.HK/HKD",
+    "Description": "China Mobile Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "0998.HK/HKD",
+    "Description": "CITIC Bank International Corp Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "1093.HK/HKD",
+    "Description": "CSPC Pharmaceutical Group Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "1177.HK/HKD",
+    "Description": "Sino Biopharmeceutical Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "1288.HK/HKD",
+    "Description": "Agricultural Bank of China Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "1299.HK/HKD",
+    "Description": "AIA Group Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "1398.HK/HKD",
+    "Description": "Industrial and Commercial Bank of China Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "1918.HK/HKD",
+    "Description": "Sunac China Holdings Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "2007.HK/HKD",
+    "Description": "Country Garden Holdings Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "2018.HK/HKD",
+    "Description": "AAC Technologies Holdings Inc",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "2318.HK/HKD",
+    "Description": "Ping An Insurance Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "2388.HK/HKD",
+    "Description": "BOC Hong Kong (Holdings) Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "2628.HK/HKD",
+    "Description": "China Life Insurance Company Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "3333.HK/HKD",
+    "Description": "China Evergrande Group",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "3968.HK/HKD",
+    "Description": "China Merchants Bank Co Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "3988.HK/HKD",
+    "Description": "Bank of China Ltd",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "1810.HK/HKD",
+    "Description": "Xiaomi Corp",
+    "market": "Hong Kong",
+    "point": "0.01 HKD",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "2502.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Asahi Group Holdings Ltd"
+  },
+  {
+    "Instrument": "2503.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Kirin Brewery Co Ltd"
+  },
+  {
+    "Instrument": "2914.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Japan Tobacco Inc"
+  },
+  {
+    "Instrument": "3382.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Seven and I Holdings Co Ltd"
+  },
+  {
+    "Instrument": "3436.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Sumco Corp"
+  },
+  {
+    "Instrument": "4004.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Showa Denko KK"
+  },
+  {
+    "Instrument": "4005.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Sumitomo Chemical Co Ltd"
+  },
+  {
+    "Instrument": "4063.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Shin-Etsu Chemical Co Ltd"
+  },
+  {
+    "Instrument": "4452.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Kao Corp"
+  },
+  {
+    "Instrument": "4502.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Takeda Pharmaceutical Co Ltd"
+  },
+  {
+    "Instrument": "4503.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Astellas Pharma Inc"
+  },
+  {
+    "Instrument": "4507.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Shionogi & Co Ltd"
+  },
+  {
+    "Instrument": "4523.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Eisai Co Ltd"
+  },
+  {
+    "Instrument": "4543.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Terumo Corp"
+  },
+  {
+    "Instrument": "4689.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Z Holdings Corp"
+  },
+  {
+    "Instrument": "4911.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Shiseido Co Ltd"
+  },
+  {
+    "Instrument": "5108.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Bridgestone Corp"
+  },
+  {
+    "Instrument": "5301.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Tokai Carbon Co Ltd"
+  },
+  {
+    "Instrument": "5401.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Nippon Steel Corp"
+  },
+  {
+    "Instrument": "6098.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Recruit Holdings Co Ltd"
+  },
+  {
+    "Instrument": "6301.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Komatsu Ltd"
+  },
+  {
+    "Instrument": "6367.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Daikin Industries Ltd"
+  },
+  {
+    "Instrument": "6501.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Hitachi Ltd"
+  },
+  {
+    "Instrument": "6502.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Toshiba Corp"
+  },
+  {
+    "Instrument": "6503.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Mitsubishi Electric Corp"
+  },
+  {
+    "Instrument": "6506.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Yaskawa Electric Corp"
+  },
+  {
+    "Instrument": "6702.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Fujitsu Ltd"
+  },
+  {
+    "Instrument": "6752.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Panasonic Corp"
+  },
+  {
+    "Instrument": "6758.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Sony Corp"
+  },
+  {
+    "Instrument": "6762.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "TDK Corp"
+  },
+  {
+    "Instrument": "6902.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Denso Corp"
+  },
+  {
+    "Instrument": "6954.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "FANUC Corp"
+  },
+  {
+    "Instrument": "6971.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Kyocera Corp"
+  },
+  {
+    "Instrument": "7201.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Nissan Motor Co Ltd"
+  },
+  {
+    "Instrument": "7203.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Toyota Motor Corp"
+  },
+  {
+    "Instrument": "7261.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Mazda Motor Corp"
+  },
+  {
+    "Instrument": "7267.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Honda Motor Co Ltd"
+  },
+  {
+    "Instrument": "7269.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Suzuki Motor Corp"
+  },
+  {
+    "Instrument": "7270.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Subaru Corp"
+  },
+  {
+    "Instrument": "7751.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Canon Inc"
+  },
+  {
+    "Instrument": "7974.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Nintendo Co Ltd"
+  },
+  {
+    "Instrument": "8031.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Mitsui & Co Ltd"
+  },
+  {
+    "Instrument": "8035.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Tokyo Electron Ltd"
+  },
+  {
+    "Instrument": "8306.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Mitsubishi UFJ Financial Group Inc"
+  },
+  {
+    "Instrument": "8316.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Sumitomo Mitsui Financial Group Inc"
+  },
+  {
+    "Instrument": "8411.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Mizuho Financial Group Inc"
+  },
+  {
+    "Instrument": "8766.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Tokio Marine Holdings Inc"
+  },
+  {
+    "Instrument": "8801.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Mitsui Fudosan Co Ltd"
+  },
+  {
+    "Instrument": "8802.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Mitsubishi Estate Co Ltd"
+  },
+  {
+    "Instrument": "9020.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "East Japan Railway Co"
+  },
+  {
+    "Instrument": "9432.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Nippon Telegraph & Tel Corp"
+  },
+  {
+    "Instrument": "9433.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "KDDI Corp"
+  },
+  {
+    "Instrument": "9437.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "NTT Docomo Inc"
+  },
+  {
+    "Instrument": "9501.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Tokyo Electric Power Co Holdings Inc"
+  },
+  {
+    "Instrument": "9983.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Fast Retailing Co Ltd"
+  },
+  {
+    "Instrument": "9984.JP/JPY",
+    "market": "Japan",
+    "point": "1 JPY",
+    "lever": "1:10",
+    "Description": "Softbank Group Corp"
+  },
+  {
+    "Instrument": "A2A.IT/EUR",
+    "Description": "A2A Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AGL.IT/EUR",
+    "Description": "Autogrill Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AMP.IT/EUR",
+    "Description": "Amplifon Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ATL.IT/EUR",
+    "Description": "Atlantia Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "AZM.IT/EUR",
+    "Description": "Azimut Holding Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BAMI.IT/EUR",
+    "Description": "Banco BPM Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BC.IT/EUR",
+    "Description": "Brunello Cucinelli Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BMPS.IT/EUR",
+    "Description": "Banca Monte dei Paschi di Siena Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BPE.IT/EUR",
+    "Description": "Bper Banca Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BRE.IT/EUR",
+    "Description": "Brembo Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BZU.IT/EUR",
+    "Description": "Buzzi Unicem Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CASS.IT/EUR",
+    "Description": "Società Cattolica di Assicurazione S.C.",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CERV.IT/EUR",
+    "Description": "Cerved Information Solutions SPA",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CPR.IT/EUR",
+    "Description": "Davide Campari-Milano Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CVAL.IT/EUR",
+    "Description": "Credito Valtellinese Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DAN.IT/EUR",
+    "Description": "Danieli & C. Officine Meccaniche S.p.A.",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DEA.IT/EUR",
+    "Description": "Dea Capital Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "DIA.IT/EUR",
+    "Description": "Diasorin Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ENEL.IT/EUR",
+    "Description": "ENEL Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ENI.IT/EUR",
+    "Description": "ENI Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ERG.IT/EUR",
+    "Description": "ERG Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FBK.IT/EUR",
+    "Description": "FinecoBank Banca Fineco Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "FCA.IT/EUR",
+    "Description": "Fiat Chrysler Auto NV",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "G.IT/EUR",
+    "Description": "Assicurazioni Generali Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "IG.IT/EUR",
+    "Description": "Italgas Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "INW.IT/EUR",
+    "Description": "Infrastrutture Wireless Italiane Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "ISP.IT/EUR",
+    "Description": "Intesa Sanpaolo Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "JUVE.IT/EUR",
+    "Description": "Juventus Football Club Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "LDO.IT/EUR",
+    "Description": "Leonardo Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MB.IT/EUR",
+    "Description": "Mediobanca Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MONC.IT/EUR",
+    "Description": "Moncler Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "MS.IT/EUR",
+    "Description": "Mediaset Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PIA.IT/EUR",
+    "Description": "Piaggio & C. Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "PRY.IT/EUR",
+    "Description": "Prysmian Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RACE.IT/EUR",
+    "Description": "Ferrari NV",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "REC.IT/EUR",
+    "Description": "Recordati Industria Chimica e Farmaceutica S.p.A.",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SFER.IT/EUR",
+    "Description": "Salvatore Ferragamo S.p.A.",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SPM.IT/EUR",
+    "Description": "SAIPEM Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SRG.IT/EUR",
+    "Description": "Snam Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "SRS.IT/EUR",
+    "Description": "Saras Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "STM.IT/EUR",
+    "Description": "STMicroelectronics NV",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TEN.IT/EUR",
+    "Description": "Tenaris SA",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TIS.IT/EUR",
+    "Description": "Tiscali Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TIT.IT/EUR",
+    "Description": "Telecom Italia Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TOD.IT/EUR",
+    "Description": "Tod's S.p.A.",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "TRN.IT/EUR",
+    "Description": "Terna Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "UCG.IT/EUR",
+    "Description": "UniCredit Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "US.IT/EUR",
+    "Description": "Unipolsai Assicurazioni Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "WBD.IT/EUR",
+    "Description": "WeBuild Spa",
+    "market": "Italy",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "BIRG.IE/EUR",
+    "Description": "Bank Of Ireland Plc",
+    "market": "Ireland",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "CRG.IE/EUR",
+    "Description": "CRH Plc",
+    "market": "Ireland",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KRX.IE/EUR",
+    "Description": "Kingspan Group Plc",
+    "market": "Ireland",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "KRZ.IE/EUR",
+    "Description": "Kerry Group Plc",
+    "market": "Ireland",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  },
+  {
+    "Instrument": "RY4C.IE/EUR",
+    "Description": "Ryanair Holdings Plc",
+    "market": "Ireland",
+    "point": "0.01 EUR",
+    "lever": "1:10"
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "Instrument": "DSB.FR/EUR",
+    "Description": "LYXOR ETF Daily X2 Short Bund",
+    "Market": "France",
+    "Point value": "0.01 EUR"
+  },
+  {
+    "Instrument": "LVC.FR/EUR",
+    "Description": "Lyxor ETF Leverage CAC 40",
+    "Market": "France",
+    "Point value": "0.01 EUR"
+  },
+  {
+    "Instrument": "LYXBNK.FR/EUR",
+    "Description": "Lyxor UCITS ETF STOXX EUROPE 600 Banks",
+    "Market": "France",
+    "Point value": "0.01 EUR"
+  },
+  {
+    "Instrument": "TECDAXE.DE/EUR",
+    "Description": "iShares TecDAX UCITS DE ETF",
+    "Market": "Germany",
+    "Point value": "0.01 EUR"
+  },
+  {
+    "Instrument": "3188.HK/HKD",
+    "Description": "ChinaAMC CSI 300 Index ETF",
+    "Market": "Hong Kong",
+    "Point value": "0.01 HKD"
+  },
+  {
+    "Instrument": "2822.HK/HKD",
+    "Description": "CSOP FTSE China A50 ETF",
+    "Market": "Hong Kong",
+    "Point value": "0.01 HKD"
+  },
+  {
+    "Instrument": "2828.HK/HKD",
+    "Description": "Hang Seng H-Share Index ETF",
+    "Market": "Hong Kong",
+    "Point value": "0.01 HKD"
+  },
+  {
+    "Instrument": "2836.HK/HKD",
+    "Description": "iShares Core S&P BSE SENSEX India ETF",
+    "Market": "Hong Kong",
+    "Point value": "0.01 HKD"
+  },
+  {
+    "Instrument": "DIA.US/USD",
+    "Description": "SPDR Dow Jones Industrial Average ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "EFA.US/USD",
+    "Description": "iShares MSCI EAFE ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "EWJ.US/USD",
+    "Description": "iShares MSCI Japan ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "EZU.US/USD",
+    "Description": "iShares MSCI EMU ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "GDXJ.US/USD",
+    "Description": "VanEck Vectors Junior Gold Miners ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "IEF.US/USD",
+    "Description": "iShares 7-10 Year Treasury Bond ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "IVE.US/USD",
+    "Description": "iShares S&P 500 Value ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "IWF.US/USD",
+    "Description": "iShares Russell 1000 Growth ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "JNK.US/USD",
+    "Description": "SPDR Barclays Capital High Yield Bond ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "SPY.US/USD",
+    "Description": "SPDR S&P 500 ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "VEA.US/USD",
+    "Description": "Vanguard FTSE Developed Markets ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "VXX.US/USD",
+    "Description": "iPath S&P 500 VIX B SERIES CFD",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "XLI.US/USD",
+    "Description": "Industrial Select Sector SPDR Fund",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "XLU.US/USD",
+    "Description": "Utilities Select Sector SPDR Fund",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "XOP.US/USD",
+    "Description": "SPDR S&P Oil & Gas Explor & Prodtn ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "DVY.US/USD",
+    "Description": "iShares Select Dividend ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "EMB.US/USD",
+    "Description": "iShares J.P. Morgan USD Emerging Markets Bond ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "EWW.US/USD",
+    "Description": "iShares MSCI Mexico Capped ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "FXI.US/USD",
+    "Description": "iShares China Large-Cap ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "GLD.US/USD",
+    "Description": "SPDR Gold Shares ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "IJH.US/USD",
+    "Description": "iShares Core S&P Mid-Cap ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "IVW.US/USD",
+    "Description": "iShares S&P 500 Growth ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "IWM.US/USD",
+    "Description": "iShares Russell 2000 ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "QQQ.US/USD",
+    "Description": "PowerShares QQQ ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "TLT.US/USD",
+    "Description": "iShares 20+ Year Treasury Bond ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "VGK.US/USD",
+    "Description": "Vanguard FTSE Europe ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "XLE.US/USD",
+    "Description": "Energy Select Sector SPDR Fund",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "XLK.US/USD",
+    "Description": "Technology Select Sector SPDR Fund",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "XLV.US/USD",
+    "Description": "Health Care Select Sector SPDR Fund",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "EEM.US/USD",
+    "Description": "iShares MSCI Emerging Markets ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "EWH.US/USD",
+    "Description": "iShares MSCI Hong Kong ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "EWZ.US/USD",
+    "Description": "iShares MSCI Brazil Capped ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "GDX.US/USD",
+    "Description": "VanEck Vectors Gold Miners ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "IBB.US/USD",
+    "Description": "iShares Nasdaq Biotechnology ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "IJR.US/USD",
+    "Description": "iShares Core S&P Small-Cap ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "IWD.US/USD",
+    "Description": "iShares Russell 1000 Value ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "IYR.US/USD",
+    "Description": "iShares U.S. Real Estate ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "SLV.US/USD",
+    "Description": "iShares Silver Trust ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "USO.US/USD",
+    "Description": "United States Oil Fund",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "VNQ.US/USD",
+    "Description": "Vanguard REIT ETF",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "XLF.US/USD",
+    "Description": "Financial Select Sector SPDR Fund",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "XLP.US/USD",
+    "Description": "Consumer Staples Select Sector SPDR Fund",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  },
+  {
+    "Instrument": "XLY.US/USD",
+    "Description": "Consumer Discretionary Select Sector SPDR Fund",
+    "Market": "US",
+    "Point value": "0.01 USD"
+  }
+]

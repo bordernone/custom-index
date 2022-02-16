@@ -1,0 +1,116 @@
+[
+  {
+    "Instrument": "AUS.IDX/AUD",
+    "Description": "Australia 200 Index",
+    "Index components": "200 largest australian companies",
+    "Point value*": "0.01 AUD"
+  },
+  {
+    "Instrument": "ESP.IDX/EUR",
+    "Description": "Spain 35 Index",
+    "Index components": "35 most tradable spanish companies",
+    "Point value*": "0.01 EUR"
+  },
+  {
+    "Instrument": "EUS.IDX/EUR",
+    "Description": "EU Stocks 50 Index",
+    "Index components": "Top 50 european companies",
+    "Point value*": "0.01 EUR"
+  },
+  {
+    "Instrument": "HKG.IDX/HKD",
+    "Description": "Hong Kong Index",
+    "Index components": "Top Hong Kong companies",
+    "Point value*": "0.01 HKD"
+  },
+  {
+    "Instrument": "DEU.IDX/EUR",
+    "Description": "Germany 40 Index",
+    "Index components": "40 major German companies",
+    "Point value*": "0.01 EUR"
+  },
+  {
+    "Instrument": "FRA.IDX/EUR",
+    "Description": "France 40 Index",
+    "Index components": "40 largest french companies",
+    "Point value*": "0.01 EUR"
+  },
+  {
+    "Instrument": "CHE.IDX/CHF",
+    "Description": "Switzerland 20 Index",
+    "Index components": "20 Swiss blue-chips",
+    "Point value*": "0.01 CHF"
+  },
+  {
+    "Instrument": "GBR.IDX/GBP",
+    "Description": "UK 100 Index",
+    "Index components": "100 top UK Companies as per capitalization",
+    "Point value*": "0.01 GBP"
+  },
+  {
+    "Instrument": "JPN.IDX/JPY",
+    "Description": "Japan 200+ Index",
+    "Index components": "Over 200 of Japanese leading companies",
+    "Point value*": "0.01 JPY"
+  },
+  {
+    "Instrument": "USA30.IDX/USD",
+    "Description": "US 30 Index",
+    "Index components": "30 major American companies",
+    "Point value*": "0.01 USD"
+  },
+  {
+    "Instrument": "USATECH.IDX/USD",
+    "Description": "US 100 Tech Index",
+    "Index components": "100 of the US largest telecommunication, software, biotechnology and computer hardware companies",
+    "Point value*": "0.01 USD"
+  },
+  {
+    "Instrument": "USA500.IDX/USD",
+    "Description": "US 500 Index",
+    "Index components": "Top 500 companies in US",
+    "Point value*": "0.01 USD"
+  },
+  {
+    "Instrument": "USSC2000.IDX/USD",
+    "Description": "US Small Cap 2000 Index",
+    "Index components": "2000 small-capitalization companies in US",
+    "Point value*": "0.01 USD"
+  },
+  {
+    "Instrument": "CHI.IDX/USD",
+    "Description": "China A50",
+    "Index components": "50 largest China A-Share companies",
+    "Point value*": "0.01 USD"
+  },
+  {
+    "Instrument": "DOLLAR.IDX/USD",
+    "Description": "US Dollar Index",
+    "Index components": "US Dollar Index Basket",
+    "Point value*": "0.01 USD"
+  },
+  {
+    "Instrument": "NLD.IDX/EUR",
+    "Description": "Netherlands 25 Index",
+    "Index components": "25 top Dutch companies",
+    "Point value*": "0.01 EUR"
+  },
+  {
+    "Instrument": "SGD.IDX/SGD",
+    "Description": "Singapore Blue Chip Index",
+    "Index components": "Top Singapore companies",
+    "Point value*": "0.01 SGD"
+  },
+  {
+    "Instrument": "IND.IDX/USD",
+    "Description": "India 50 Index",
+    "Index components": "50 Indian company stocks",
+    "Point value*": "0.01 USD"
+  },
+  {
+    "Instrument": "PLN.IDX/PLN",
+    "Description": "Poland 20 Index",
+    "Index components": "20 largest Polish companies",
+    "Point value*": "0.01 PLN"
+  }
+]

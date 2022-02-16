@@ -20,3 +20,24 @@
 .date-label{
     margin-right: 10px;
 }
+
+.theme-text-color{
+    color:#36D7B7 !important;
+}
+
+.theme-main-color-bg{
+    background-color:#36D7B7 !important;
+}
+
+.theme-secondary-color-bg{
+    background-color: #289984 !important;
+}
+
+.submit-btn{
+    background-color: #36D7B7 !important;
+    border-color: #36D7B7 !important;
+}
+
+.submit-btn:hover{
+    background-color: #289984 !important;
+}

@@ -11,8 +11,11 @@ import {
 import {useEffect, useState} from "react";
 import axios from "axios";
 import {useLocation} from "react-router-dom";
+import LoadingOverlay from "react-loading-overlay";
+import BarLoader from 'react-spinners/BarLoader'
 
 export default function Chart() {
+    const [loading, setLoading] = useState(true);
     const [data, setData] = useState([]);
     const location = useLocation();
 
@@ -21,7 +24,7 @@ export default function Chart() {
             console.log(location.state);
             fetchData();
         }
-    }, [data, setData])
+    }, [data])
 
     const fetchData = () => {
         const options = {
@@ -38,6 +41,7 @@ export default function Chart() {
 
         axios.request(options).then((response) => {
             setData(response.data);
+            setLoading(false);
         }).catch(function (error) {
             console.error(error);
         });
@@ -45,27 +49,31 @@ export default function Chart() {
 
 
     return (
-        <div className="App">
-            <ResponsiveContainer width="100%" height="100%">
-                <LineChart
-                    width={500}
-                    height={300}
-                    data={data}
-                    margin={{
-                        top: 5,
-                        right: 30,
-                        left: 20,
-                        bottom: 5,
-                    }}
-                >
-                    <CartesianGrid strokeDasharray="3 3"/>
-                    <XAxis dataKey="date"/>
-                    <YAxis/>
-                    <Tooltip/>
-                    <Legend/>
-                    <Line type="monotone" dataKey="Index Growth" stroke="#8884d8" activeDot={{r: 8}}/>
-                </LineChart>
-            </ResponsiveContainer>
-        </div>
+        <LoadingOverlay active={loading}
+                        spinner={<BarLoader />}
+        >
+            <div className="App">
+                <ResponsiveContainer width="100%" height="100%">
+                    <LineChart
+                        width={500}
+                        height={300}
+                        data={data}
+                        margin={{
+                            top: 5,
+                            right: 30,
+                            left: 20,
+                            bottom: 5,
+                        }}
+                    >
+                        <CartesianGrid strokeDasharray="3 3"/>
+                        <XAxis dataKey="date"/>
+                        <YAxis/>
+                        <Tooltip/>
+                        <Legend/>
+                        <Line type="monotone" dataKey="Index Growth" stroke="#8884d8" activeDot={{r: 8}}/>
+                    </LineChart>
+                </ResponsiveContainer>
+            </div>
+        </LoadingOverlay>
     );
 }

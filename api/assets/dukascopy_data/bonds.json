@@ -1,0 +1,20 @@
+[
+  {
+    "Instrument": "BUND.TR/EUR",
+    "Description": "German government bond",
+    "Bond components": "Euro Bund",
+    "Point value": "0.01 EUR"
+  },
+  {
+    "Instrument": "UKGILT.TR/GBP",
+    "Description": "UK government bond",
+    "Bond components": "UK Long Gilt",
+    "Point value": "0.01 GBP"
+  },
+  {
+    "Instrument": "USTBOND.TR/USD",
+    "Description": "US government bond",
+    "Bond components": "US T-Bond",
+    "Point value": "0.01 USD"
+  }
+]

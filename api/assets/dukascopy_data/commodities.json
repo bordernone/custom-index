@@ -1,0 +1,68 @@
+[
+  {
+    "Instrument": "BRENT.CMD/USD",
+    "Description": "UK Brent Oil",
+    "Contract size": "1 CFD = 100 barrels",
+    "Point value*": "1.00 USD"
+  },
+  {
+    "Instrument": "LIGHT.CMD/USD",
+    "Description": "US Crude Oil",
+    "Contract size": "1 CFD = 100 barrels",
+    "Point value*": "1.00 USD"
+  },
+  {
+    "Instrument": "GAS.CMD/USD",
+    "Description": "Natural gas",
+    "Contract size": "1 CFD = 100 MMBTU",
+    "Point value*": "0.1 USD"
+  },
+  {
+    "Instrument": "COPPER.CMD/USD",
+    "Description": "High Grade Copper",
+    "Contract size": "1 CFD = 100 lbs",
+    "Point value*": "0.1 USD"
+  },
+  {
+    "Instrument": "DIESEL.CMD/USD",
+    "Description": "Low Sulphur Gasoil",
+    "Contract size": "1 CFD = 4 MT",
+    "Point value*": "0.04 USD"
+  },
+  {
+    "Instrument": "COFFEE.CMD/USX",
+    "Description": "Coffee Arabica",
+    "Contract size": "1 CFD = 1 lbs",
+    "Point value*": "0.01 USX"
+  },
+  {
+    "Instrument": "COCOA.CMD/USD",
+    "Description": "US Cocoa",
+    "Contract size": "1 CFD = 1 MT",
+    "Point value*": "0.01 USD"
+  },
+  {
+    "Instrument": "SUGAR.CMD/USD",
+    "Description": "Sugar White",
+    "Contract size": "1 CFD = 1 t",
+    "Point value*": "0.01 USD"
+  },
+  {
+    "Instrument": "COTTON.CMD/USX",
+    "Description": "Cotton",
+    "Contract size": "1 CFD = 1 lbs",
+    "Point value*": "0.01 USX"
+  },
+  {
+    "Instrument": "OJUICE.CMD/USX",
+    "Description": "Orange Juice",
+    "Contract size": "1 CFD = 1 lbs",
+    "Point value*": "0.01 USX"
+  },
+  {
+    "Instrument": "SOYBEAN.CMD/USX",
+    "Description": "Soybean",
+    "Contract size": "1 CFD = 1 MT",
+    "Point value*": "0.01 USX"
+  }
+]

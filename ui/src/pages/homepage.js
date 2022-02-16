@@ -6,6 +6,7 @@ import { useNavigate } from "react-router";
 import LoadingOverlay from 'react-loading-overlay';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
+import {PropagateLoader} from "react-spinners";
 
 
 const instruments = new Map();
@@ -50,7 +51,7 @@ const TableRow = ({updateHandler}) => {
                 </Form.Select>
             </td>
             <td className={"table-text-center"}>
-                {"Cool"}
+                {instruments.get(instrument_id).desc}
             </td>
             <td>
                 <Form.Control
@@ -89,7 +90,7 @@ function TableInput({onSubmit}) {
                     <tr>
                         <th className={"width-200"}>Instrument</th>
                         <th className={"width-200"}>Description</th>
-                        <th className={"width-200"}>Investment Proportion</th>
+                        <th className={"width-200"}>Investment Proportion (%)</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -105,7 +106,7 @@ function TableInput({onSubmit}) {
                         &#x2B; Add Item
                     </Button>
 
-                    <Button onClick={() => {onSubmit(elementsProp)}} >
+                    <Button onClick={() => {onSubmit(elementsProp)}} className={"submit-btn"}>
                         Submit
                     </Button>
             </Row>
@@ -123,7 +124,7 @@ export default function Homepage() {
 
     useEffect(() => {
         getInstruments();
-    });
+    }, []);
 
     const getInstruments = () => {
         const options = {
@@ -158,8 +159,7 @@ export default function Homepage() {
 
     return (
         <LoadingOverlay active={loading}
-                        spinner
-                        text='Loading...'
+                        spinner={<PropagateLoader color={"#36D7B7"}/>}
         >
             <Container style={{padding: "1rem 0", minHeight: '100vh'}}>
                 <Row >

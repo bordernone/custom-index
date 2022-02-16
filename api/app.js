@@ -4,6 +4,16 @@ const port = 3001;
 const axios = require("axios");
 const dfd = require("danfojs-node")
 const assert = require("assert");
+const {stringSearch} = require("./helpers/misc");
+
+const FOREX_PAIRS = require('./assets/forex_pairs.json');
+const INSTRUMENTS_INFO = [...require('./assets/dukascopy_data/bonds.json'), ...require('./assets/dukascopy_data/efts.json'), ...require('./assets/dukascopy_data/commodities.json'), ...require('./assets/dukascopy_data/indices.json'), ...require('./assets/dukascopy_data/stocks.json')];
+
+INSTRUMENTS_INFO.sort((first, second) => {
+    return ('' + first.Instrument).localeCompare(second.Instrument);
+})
+
+const INSTRUMENTS_INFO_TICKER_FLAT = INSTRUMENTS_INFO.map((item) => item.Instrument);
 
 // const instrument_ids = ["72044", "71556"];
 // const stock_proportion = [0.3, 0.7];
@@ -293,7 +303,26 @@ app.get('/api/instruments', (req, res) => {
     };
 
     axios.request(options).then(function (response) {
-        res.send(response.data);
+        let instruments_data_dukascopy = [...response.data];
+        instruments_data_dukascopy = instruments_data_dukascopy.map((item, index) => {
+            let searchID = item.name;
+            let search_index = stringSearch(searchID, FOREX_PAIRS);
+
+            if (search_index === -1){
+                // Not a forex pair
+                search_index = stringSearch(searchID, INSTRUMENTS_INFO_TICKER_FLAT);
+
+                if (search_index === -1){
+                    return {...item, desc: "Unknown!"}
+                } else {
+                    return {...item, desc: INSTRUMENTS_INFO[search_index]["Description"]}
+                }
+            } else {
+                // A forex pair
+                return {...item, desc: "Currency Pair, Forex"}
+            }
+        })
+        res.send(instruments_data_dukascopy);
     }).catch(function (error) {
         console.error(error);
         res.status(400);
