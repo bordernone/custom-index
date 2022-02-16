@@ -13,6 +13,7 @@ import axios from "axios";
 import {useLocation} from "react-router-dom";
 import LoadingOverlay from "react-loading-overlay";
 import BarLoader from 'react-spinners/BarLoader'
+import {PropagateLoader} from "react-spinners";
 
 export default function Chart() {
     const [loading, setLoading] = useState(true);
@@ -50,7 +51,7 @@ export default function Chart() {
 
     return (
         <LoadingOverlay active={loading}
-                        spinner={<BarLoader />}
+                        spinner={<PropagateLoader color={"#36D7B7"} />}
         >
             <div className="App">
                 <ResponsiveContainer width="100%" height="100%">
