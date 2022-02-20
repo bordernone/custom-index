@@ -12,7 +12,6 @@ import {useEffect, useState} from "react";
 import axios from "axios";
 import {useLocation} from "react-router-dom";
 import LoadingOverlay from "react-loading-overlay";
-import BarLoader from 'react-spinners/BarLoader'
 import {PropagateLoader} from "react-spinners";
 
 export default function Chart() {

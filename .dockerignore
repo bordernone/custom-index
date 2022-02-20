@@ -1,0 +1,15 @@
+.env
+.gitattributes
+.gitignore
+
+Dockerfile
+
+api/node_modules
+api/build
+api/.gitignore
+
+ui/node_modules
+ui/build
+ui/.gitignore
+
+.git

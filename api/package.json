@@ -14,7 +14,6 @@
   "dependencies": {
     "axios": "^0.25.0",
     "danfojs-node": "^1.0.2",
-    "express": "^4.17.2",
-    "superagent": "^7.1.1"
+    "express": "^4.17.2"
   }
 }

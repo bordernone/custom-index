@@ -4,6 +4,7 @@ const port = 3001;
 const axios = require("axios");
 const dfd = require("danfojs-node")
 const assert = require("assert");
+const path = require("path");
 const {stringSearch} = require("./helpers/misc");
 
 const FOREX_PAIRS = require('./assets/forex_pairs.json');
@@ -15,10 +16,12 @@ INSTRUMENTS_INFO.sort((first, second) => {
 
 const INSTRUMENTS_INFO_TICKER_FLAT = INSTRUMENTS_INFO.map((item) => item.Instrument);
 
+const PRODUCTION_SERVER = process.env.NODE_ENV === "production";
+
 // const instrument_ids = ["72044", "71556"];
 // const stock_proportion = [0.3, 0.7];
 
-const key = "API-KEY";
+const key = process.env.API_KEY;
 const api_url = 'https://freeserv.dukascopy.com/2.0/';
 
 app.use(express.json());
@@ -273,6 +276,15 @@ const validate_proportion = (proportion_list) => {
     return proportion_list.reduce((total, next) => {return total + next}) === 1;
 }
 
+
+if (PRODUCTION_SERVER){
+    app.use(express.static(path.join(__dirname, 'build')));
+
+    app.get('/', function (req, res) {
+        res.sendFile(path.join(__dirname, 'build', 'index.html'));
+    });
+}
+
 app.post('/api/generate_chart', async (req, res) => {
     let instrument_ids = JSON.parse(req.body.instrument_ids);
     let stock_proportion = JSON.parse(req.body.stock_proportion);
@@ -286,7 +298,7 @@ app.post('/api/generate_chart', async (req, res) => {
             let custom_index = new CustomIndexMain(instrument_ids, stock_proportion, start_timestamp, end_timestamp);
             await custom_index.gatherInstrumentsData();
             custom_index.calculateIndexGrowth();
-            custom_index.display();
+            if (!PRODUCTION_SERVER) custom_index.display();
             res.send(custom_index.getFullData().toJSON());
         } catch (e) {
             console.log(e);
