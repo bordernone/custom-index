@@ -41,3 +41,19 @@
 .submit-btn:hover{
     background-color: #289984 !important;
 }
+
+.badge.proportion-badge-incomplete{
+    background-color: #b50000 !important;
+}
+
+.badge.proportion-badge-complete{
+    background-color: #1f8973 !important;
+}
+
+.warning-overlay .tooltip-arrow::before{
+    border-top-color: #b70000 !important;
+}
+
+.warning-overlay .tooltip-inner{
+    background-color: #b70000 !important;
+}
