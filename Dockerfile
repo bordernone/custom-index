@@ -28,5 +28,7 @@ COPY api .
 # Copy react build files
 COPY --from=REACT /react/build /app/build
 
+EXPOSE 3001
+
 ENTRYPOINT ["node"]
 CMD ["app.js"]
