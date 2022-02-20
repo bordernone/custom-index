@@ -149,7 +149,7 @@ function TableInput({onSubmit}) {
 
 export default function Homepage() {
     const [loading, setLoading] = useState(true);
-    const [startDate, setStartDate] = useState(new Date());
+    const [startDate, setStartDate] = useState((new Date()).setFullYear((new Date()).getFullYear() - 1));
     const [endDate, setEndDate] = useState(new Date());
 
     const history = useNavigate();
