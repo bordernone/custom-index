@@ -11,7 +11,7 @@ const FOREX_PAIRS = require('./assets/forex_pairs.json');
 const INSTRUMENTS_INFO = [...require('./assets/dukascopy_data/bonds.json'), ...require('./assets/dukascopy_data/efts.json'), ...require('./assets/dukascopy_data/commodities.json'), ...require('./assets/dukascopy_data/indices.json'), ...require('./assets/dukascopy_data/stocks.json')];
 
 INSTRUMENTS_INFO.sort((first, second) => {
-    return ('' + first.Instrument).localeCompare(second.Instrument);
+    return ('' + first.Instrument).localeCompare('' + second.Instrument);
 })
 
 const INSTRUMENTS_INFO_TICKER_FLAT = INSTRUMENTS_INFO.map((item) => item.Instrument);
